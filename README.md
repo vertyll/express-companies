@@ -25,11 +25,10 @@ Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy
 
 ## Zdjęcia poglądowe
 
-![Widok projektu](https://nextjs-festival.s3.eu-north-1.amazonaws.com/Zrzut+ekranu+2024-02-1+o+19.18.32.png)
-![Widok projektu](https://nextjs-festival.s3.eu-north-1.amazonaws.com/Zrzut+ekranu+2024-02-1+o+19.18.51.png)
-![Widok projektu](https://nextjs-festival.s3.eu-north-1.amazonaws.com/Zrzut+ekranu+2024-02-1+o+19.19.38.png)
-![Widok projektu](https://nextjs-festival.s3.eu-north-1.amazonaws.com/Zrzut+ekranu+2024-02-1+o+19.20.26.png)
-![Widok projektu](https://nextjs-festival.s3.eu-north-1.amazonaws.com/Zrzut+ekranu+2024-02-1+o+19.22.06.png)
+![Widok projektu](https://raw.githubusercontent.com/vertyll/express-firmy/main/screenshots/Zrzut%20ekranu%202024-02-4%20o%2011.25.34.png?token=GHSAT0AAAAAACLIFWJGRXOJZ7RMGWZAQK5WZN7OXRA)
+![Widok projektu](https://raw.githubusercontent.com/vertyll/express-firmy/main/screenshots/Zrzut%20ekranu%202024-02-4%20o%2011.26.10.png?token=GHSAT0AAAAAACLIFWJG7ZDIZLUPNGAS7CBKZN7OYAA)
+![Widok projektu](https://raw.githubusercontent.com/vertyll/express-firmy/main/screenshots/Zrzut%20ekranu%202024-02-4%20o%2011.26.33.png?token=GHSAT0AAAAAACLIFWJHPWE3ZXE6WXPEIIK2ZN7OYBQ)
+![Widok projektu](https://raw.githubusercontent.com/vertyll/express-firmy/main/screenshots/Zrzut%20ekranu%202024-02-4%20o%2011.27.06.png?token=GHSAT0AAAAAACLIFWJGO2XOJ35HFAUF2TEWZN7OYCQ)
 
 ## Instrukcja instalacji projektu
 
