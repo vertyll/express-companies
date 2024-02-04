@@ -1,3 +1,5 @@
+## Link: https://express-firmy-7b94cd4bff8e.herokuapp.com/
+
 ## Założenia projektu 
 
 Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy
