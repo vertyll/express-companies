@@ -1,0 +1,41 @@
+<h1>Logowanie</h1>
+
+<form method="POST">
+  <div
+    class="alert alert-warning d-flex justify-content-center mb-3 mt-2"
+    role="alert"
+  >
+    <strong>Uwaga:&nbsp;</strong>Przykładowe dane logowania: email:&nbsp;
+    <b>johndoe@example.com</b>&nbsp; hasło:&nbsp;
+    <b>test</b>
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      value="<%- form.email %>"
+      id="email"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="password" class="form-label">Hasło</label>
+    <input
+      type="password"
+      class="form-control"
+      name="password"
+      id="password"
+      required
+    />
+  </div>
+
+  <% if (errors) { %>
+  <div class="alert alert-danger">Błędny email/hasło</div>
+  <% } %>
+
+  <button class="btn btn-primary">Zaloguj!</button>
+</form>

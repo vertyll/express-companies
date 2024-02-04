@@ -1,0 +1,63 @@
+<h1>Lista firm:</h1>
+
+<% if (user) { %>
+<a href="/admin/firmy/dodaj" class="btn btn-success mb-2">Dodaj nową firmę</a>
+<% } %>
+
+<a href="/csv">Pobierz CSV</a>
+
+<form>
+  <%- include('partials/search') %>
+  <div
+    class="alert alert-warning d-flex justify-content-center mb-4"
+    role="alert"
+  >
+    <strong>Uwaga:&nbsp;</strong>Przyciski edytuj i usuń nie są specjalnie
+    ukryte dla kont nie będących właścicielem aby pokazać, ze adesy zostaly
+    odpowiednio zabezpieczone.
+  </div>
+  <div class="row">
+    <div class="col-3"><%- include('partials/filters') %></div>
+    <div class="col-9">
+      <% companies.forEach(company => { %>
+      <div class="card bg-light mb-3">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="/uploads/<%- company.image %>"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-9">
+              <p class="h3 mb-4"><%= company.name %></p>
+              <p>Pracowników: <%= company.employeesCount %></p>
+              <p>Kontakt: <%- company.user?.email %></p>
+              <p>CEO: <%= company.user?.firstName %></p>
+              <a href="/firmy/<%= company.slug %>" class="btn btn-primary"
+                >Zobacz</a
+              >
+              <% if (user) { %>
+              <a
+                href="/admin/firmy/<%= company.slug %>/edytuj"
+                class="btn btn-warning"
+                >Edytuj</a
+              >
+              <a
+                href="/admin/firmy/<%= company.slug %>/usun"
+                onclick="return confirm('Czy jesteś pewny?')"
+                class="btn btn-danger"
+                >Usuń</a
+              >
+              <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+
+  <%- include('partials/pagination') %>
+</form>
