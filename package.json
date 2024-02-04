@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "node app/index.js",
     "watch": "nodemon app/index.js -e js,json, ejs",
     "debug": "nodemon --inspect app/index.js -e js,json, ejs"
   },
