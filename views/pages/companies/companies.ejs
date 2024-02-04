@@ -34,7 +34,7 @@
               <p class="h3 mb-4"><%= company.name %></p>
               <p>Pracowników: <%= company.employeesCount %></p>
               <p>Kontakt: <%- company.user?.email %></p>
-              <p>CEO: <%= company.user?.firstName %></p>
+              <p>CEO: <%= company.user?.fullName %></p>
               <a href="/firmy/<%= company.slug %>" class="btn btn-primary"
                 >Zobacz</a
               >
