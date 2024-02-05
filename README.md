@@ -2,7 +2,7 @@
 
 ## Założenia projektu 
 
-Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy
+Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy.
 
 ## Stos technologiczny
 
@@ -34,8 +34,8 @@ Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy
 
 ## Instrukcja instalacji projektu
 
-Pobieramy projekt na lokalne środowisko
-Tworzymy plik .env i kopiujemy do niego zawartość .env.example, po czym definiujemy swoje własne klucze API i dane konfiguracyjne
+Pobieramy projekt na lokalne środowisko.
+Tworzymy plik .env i kopiujemy do niego zawartość .env.example, po czym definiujemy swoje własne klucze API i dane konfiguracyjne.
 
 Instalujemy npm za pomocą komendy:
 
