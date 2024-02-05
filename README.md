@@ -25,6 +25,12 @@ Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy.
 ### Inne:
 - ESLint do statycznej analizy kodu i utrzymania jednolitej jakości kodu
 
+## Usługi chmurowe użyte w projekcie
+
+### MongoDB Cloud Services
+
+Do przechowywania danych w bazie danych została użyta platforma MongoDB Atlas.
+
 ## Zdjęcia poglądowe
 
 ![Widok projektu](https://raw.githubusercontent.com/vertyll/express-firmy/main/screenshots/Zrzut%20ekranu%202024-02-4%20o%2011.25.34.png?token=GHSAT0AAAAAACLIFWJGRXOJZ7RMGWZAQK5WZN7OXRA)
