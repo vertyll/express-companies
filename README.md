@@ -1,4 +1,4 @@
-## Link: https://express-companies-7b94cd4bff8e.herokuapp.com/
+## Link: https://express-companies-7fb42d417542.herokuapp.com/
 
 ## Założenia projektu 
 
