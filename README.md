@@ -2,7 +2,7 @@
 
 ## Założenia projektu 
 
-Aplikacja internetowa służąca do dodawania i wyszukiwania firm w okolicy.
+Aplikacja internetowa służąca do dodawania i wyszukiwania firm.
 
 ## Stos technologiczny
 
