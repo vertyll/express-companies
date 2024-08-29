@@ -10,7 +10,7 @@ Aplikacja internetowa służąca do dodawania i wyszukiwania firm.
 - ejs jako view engine
 
 ### Backend:
-- express jako framework do node.js
+- Express.js jako framework do Node.js
 - MongoDB jako baza danych w projekcie
 - nodemon w celu restartowanai serwera po każdym odświerzeniu pliku
 - bcrypt do hashowania haseł
