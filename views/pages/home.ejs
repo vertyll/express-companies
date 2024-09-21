@@ -1,10 +1,22 @@
-<h1>To jest strona główna</h1>
+<div class="container mt-5">
+  <h1 class="text-center mb-4 text-uppercase">express-companies</h1>
 
-<% if (user) { %>
-  <p>Zalogowano:<p>
-  <p>User: <%- user.email %></p>
-  <p>ID: <%- user._id %></p>
-<% } else { %>
-  <p>Witaj na naszej stronie. Jest to wyszukiwarka firm.</p>
-  <p>Załóż konto, aby dodać własną firmę!</p>
-<% } %>
+  <% if (user) { %>
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Zalogowano:</h5>
+        <p class="card-text">User: <%- user.email %></p>
+        <p class="card-text">ID: <%- user._id %></p>
+        <a href="/logout" class="btn btn-danger mt-3">Wyloguj się</a>
+      </div>
+    </div>
+  <% } else { %>
+    <div class="alert alert-info bg-light rounded p-4">
+      <h5 class="alert-heading">Witaj na naszej stronie!</h5>
+      <p>Jest to wyszukiwarka firm.</p>
+      <hr>
+      <p class="mb-0">Załóż konto, aby dodać własną firmę!</p>
+      <a href="/zarejestruj" class="btn btn-primary mt-3">Załóż konto</a>
+    </div>
+  <% } %>
+</div>
