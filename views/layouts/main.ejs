@@ -4,4 +4,27 @@
   <div class="card card-body"><%- body %></div>
 </div>
 
+<!-- Cookie Banner -->
+<div
+  id="cookie-banner"
+  class="fixed-bottom bg-dark text-white p-3 shadow-lg d-none"
+>
+  <div
+    class="container d-flex flex-column flex-sm-row justify-content-between align-items-center"
+  >
+    <p class="mb-2 mb-sm-0">
+      Ta strona używa plików cookie, aby poprawić Twoje doświadczenie.
+      Korzystając z naszej strony, zgadzasz się na wykorzystanie plików cookie.
+    </p>
+    <button
+      id="accept-cookies"
+      class="btn btn-primary mt-2 mt-sm-0 mx-auto mx-sm-0"
+    >
+      Akceptuję
+    </button>
+  </div>
+</div>
+
+<script src="/js/cookie-banner.js"></script>
+
 <%- include('../partials/footer'); -%>
