@@ -22,6 +22,9 @@ Aplikacja internetowa służąca do dodawania i wyszukiwania firm.
 - rate-limiter-flexible w celu zabezpieczenia prób dostępu do serwisu
 - multer do przetwarzania danych wejscowych formularzy
 
+### Autoryzacja:
+- autoryzacja za pomocą sesji
+
 ### Inne:
 - ESLint do statycznej analizy kodu i utrzymania jednolitej jakości kodu
 
